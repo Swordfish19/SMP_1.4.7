@@ -1,5 +1,5 @@
 # Configuration file
-# Generated on 29.12.12 22:28
+# Generated on 09.01.13 19:14
 
 ####################
 # languagefile
@@ -36,11 +36,16 @@ languagefile {
     S:item.GT_Cells.20.name=Biomass Cell
     S:item.GT_Cells.21.name=Creosote Cell
     S:item.GT_Cells.22.name=Nitro-Diesel Cell
+    S:item.GT_Cells.23.name=Ice Cell
     S:item.GT_Cells.3.name=Helium Cell
     S:item.GT_Cells.32.name=Sodium Persulfate Cell
     S:item.GT_Cells.33.name=Calcium Carbonate Cell
     S:item.GT_Cells.34.name=Glyceryl Cell
     S:item.GT_Cells.35.name=Nitro-Coalfuel Cell
+    S:item.GT_Cells.36.name=Sulfur Cell
+    S:item.GT_Cells.37.name=Sodium Sulfide Cell
+    S:item.GT_Cells.38.name=Nitrogen Dioxide Cell
+    S:item.GT_Cells.39.name=Nitrocarbon Cell
     S:item.GT_Cells.4.name=Wolframium Cell
     S:item.GT_Cells.5.name=Lithium Cell
     S:item.GT_Cells.6.name=Helium-3 Cell
@@ -129,6 +134,7 @@ languagefile {
     S:item.GT_Gasses.15.name=Gaseous Nitrogen
     S:item.GT_Gasses.2.name=Gaseous Tritium
     S:item.GT_Gasses.3.name=Gaseous Helium
+    S:item.GT_Gasses.38.name=Gaseous Nitrogen Dioxide
     S:item.GT_Gasses.6.name=Gaseous Helium-3
     S:item.GT_Gasses.9.name=Gaseous Methane
     S:item.GT_Liquids.10.name=Liquid Berylium
@@ -172,8 +178,28 @@ languagefile {
     S:item.GT_Materials.36.name=Silicon Plate
     S:item.GT_Materials.37.name=Olivine
     S:item.GT_Materials.4.name=Iridium Alloy Ingot
+    S:item.GT_Materials.5.name=Hot Tungstensteel Ingot
     S:item.GT_Materials.54.name=Red Garnet
     S:item.GT_Materials.55.name=Yellow Garnet
+    S:item.GT_Materials.6.name=Tungstensteel Ingot
+    S:item.GT_Nuggets.16.name=Iridium Nugget
+    S:item.GT_Nuggets.17.name=Silver Nugget
+    S:item.GT_Nuggets.18.name=Aluminium Nugget
+    S:item.GT_Nuggets.19.name=Titanium Nugget
+    S:item.GT_Nuggets.20.name=Chrome Nugget
+    S:item.GT_Nuggets.21.name=Electrum Nugget
+    S:item.GT_Nuggets.22.name=Tungsten Nugget
+    S:item.GT_Nuggets.23.name=Lead Nugget
+    S:item.GT_Nuggets.24.name=Zinc Nugget
+    S:item.GT_Nuggets.241.name=Iron Nugget
+    S:item.GT_Nuggets.243.name=Copper Nugget
+    S:item.GT_Nuggets.244.name=Tin Nugget
+    S:item.GT_Nuggets.245.name=Bronze Nugget
+    S:item.GT_Nuggets.25.name=Brass Nugget
+    S:item.GT_Nuggets.26.name=Steel Nugget
+    S:item.GT_Nuggets.27.name=Platinum Nugget
+    S:item.GT_Nuggets.28.name=Nickel Nugget
+    S:item.GT_Nuggets.29.name=Invar Nugget
     S:item.GT_SmallDusts.0.name=Tiny Pile of Ender Pearl Dust
     S:item.GT_SmallDusts.1.name=Tiny Pile of Ender Eye Dust
     S:item.GT_SmallDusts.10.name=Tiny Pile of Endstone Dust
@@ -273,6 +299,17 @@ languagefile {
     S:tile.BlockMetaID_Block.LESU_Block.name=LESU-Block
     S:tile.BlockMetaID_Block.Reinforced_Machine_Casing.name=Reinforced Machine Casing
     S:tile.BlockMetaID_Block.Standard_Machine_Casing.name=Standard Machine Casing
+    S:tile.BlockMetaID_Block2..name=
+    S:tile.BlockMetaID_Block2.GT_ElectrumBlock.name=Block of Electrum
+    S:tile.BlockMetaID_Block2.GT_GreenSapphireBlock.name=Block of Green Sapphire
+    S:tile.BlockMetaID_Block2.GT_LeadBlock.name=Block of Lead
+    S:tile.BlockMetaID_Block2.GT_NickelBlock.name=Block of Nickel
+    S:tile.BlockMetaID_Block2.GT_OlivineBlock.name=Block of Olivine
+    S:tile.BlockMetaID_Block2.GT_PlatinumBlock.name=Block of Platinum
+    S:tile.BlockMetaID_Block2.GT_TungstenBlock.name=Block of Tungsten
+    S:tile.BlockMetaID_Block2.GT_TungstenSteelIridiumWall.name=Iridium Reinforced Tungstensteel Block
+    S:tile.BlockMetaID_Block2.GT_TungstenSteelWall.name=Tungstensteel Block
+    S:tile.BlockMetaID_Block2.GT_ZincBlock.name=Block of Zinc
     S:tile.BlockMetaID_Machine.Adjustable_Energystorageunit.name=Adjustable Energy Storage Unit
     S:tile.BlockMetaID_Machine.Charge_O_Mat.name=Charge-O-Mat
     S:tile.BlockMetaID_Machine.Fusionreactor.name=Fusion Reactor
@@ -280,7 +317,9 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Adv_Translocator.name=Advanced Translocator
     S:tile.BlockMetaID_Machine.GT_BUG.name=You ran into a serious Bug, if you have legitly aquired this Block, please report it immidietly
     S:tile.BlockMetaID_Machine.GT_BlastFurnace.name=Industrial Blast Furnace
+    S:tile.BlockMetaID_Machine.GT_ChemicalReactor.name=Chemical Reactor
     S:tile.BlockMetaID_Machine.GT_DieselGenerator.name=Diesel Generator
+    S:tile.BlockMetaID_Machine.GT_DragonEggEnergySiphon.name=Dragon Egg Energy Siphon
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Large.name=Large Electric Buffer
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Small.name=Small Electric Buffer
     S:tile.BlockMetaID_Machine.GT_E_Craftingtable.name=Electric Craftingtable
@@ -292,12 +331,14 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Harvestor.name=Crop Harvestor
     S:tile.BlockMetaID_Machine.GT_ImplosionCompressor.name=Implosion Compressor
     S:tile.BlockMetaID_Machine.GT_QuantumTank.name=Quantum Tank
+    S:tile.BlockMetaID_Machine.GT_RegulatorAdvanced.name=Advanced Regulator
     S:tile.BlockMetaID_Machine.GT_RockBreaker.name=Electric Rock Breaker
     S:tile.BlockMetaID_Machine.GT_Sawmill.name=Industrial Sawmill
     S:tile.BlockMetaID_Machine.GT_Scrapboxinator.name=Scrapboxinator
     S:tile.BlockMetaID_Machine.GT_SemifluidGenerator.name=Semifluid Generator
     S:tile.BlockMetaID_Machine.GT_ThermalGenerator.name=Thermal Generator
     S:tile.BlockMetaID_Machine.GT_Translocator.name=Electric Translocator
+    S:tile.BlockMetaID_Machine.GT_VacuumFreezer.name=Vacuum Freezer
     S:tile.BlockMetaID_Machine.GregTech_Computercube.name=GregTech Computer Cube
     S:tile.BlockMetaID_Machine.Industrial_Centrifuge.name=Industrial Centrifuge
     S:tile.BlockMetaID_Machine.Interdimensional_Energystorageunit.name=Interdimensional Energy Storage Unit
