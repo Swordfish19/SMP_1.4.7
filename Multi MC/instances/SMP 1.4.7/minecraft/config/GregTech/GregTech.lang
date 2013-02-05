@@ -1,5 +1,5 @@
 # Configuration file
-# Generated on 09.01.13 19:14
+# Generated on 05.02.13 21:51
 
 ####################
 # languagefile
@@ -37,6 +37,7 @@ languagefile {
     S:item.GT_Cells.21.name=Creosote Cell
     S:item.GT_Cells.22.name=Nitro-Diesel Cell
     S:item.GT_Cells.23.name=Ice Cell
+    S:item.GT_Cells.24.name=Seed Oil Cell
     S:item.GT_Cells.3.name=Helium Cell
     S:item.GT_Cells.32.name=Sodium Persulfate Cell
     S:item.GT_Cells.33.name=Calcium Carbonate Cell
@@ -47,6 +48,7 @@ languagefile {
     S:item.GT_Cells.38.name=Nitrogen Dioxide Cell
     S:item.GT_Cells.39.name=Nitrocarbon Cell
     S:item.GT_Cells.4.name=Wolframium Cell
+    S:item.GT_Cells.40.name=Sulfuric Acid Cell
     S:item.GT_Cells.5.name=Lithium Cell
     S:item.GT_Cells.6.name=Helium-3 Cell
     S:item.GT_Cells.7.name=Silicon Cell
@@ -68,6 +70,7 @@ languagefile {
     S:item.GT_Components.33.name=Bronze Machine Hull
     S:item.GT_Components.34.name=Brass Machine Hull
     S:item.GT_Components.35.name=Steel Machine Hull
+    S:item.GT_Components.36.name=Titanium Machine Hull
     S:item.GT_Components.4.name=Computer Monitor
     S:item.GT_Dusts.0.name=Ender Pearl Dust
     S:item.GT_Dusts.1.name=Ender Eye Dust
@@ -108,7 +111,8 @@ languagefile {
     S:item.GT_Dusts.36.name=Diamond Dust
     S:item.GT_Dusts.37.name=Olivine Dust
     S:item.GT_Dusts.4.name=Calcite Dust
-    S:item.GT_Dusts.45.name=Phosphor Dust
+    S:item.GT_Dusts.44.name=Galena Dust
+    S:item.GT_Dusts.45.name=Phosphorus Dust
     S:item.GT_Dusts.46.name=Obsidian Dust
     S:item.GT_Dusts.47.name=Charcoal Dust
     S:item.GT_Dusts.5.name=Sodalite Dust
@@ -128,6 +132,8 @@ languagefile {
     S:item.GT_Dusts.66.name=Basalt Dust
     S:item.GT_Dusts.7.name=Flint Dust
     S:item.GT_Dusts.8.name=Sulfur Dust
+    S:item.GT_Dusts.80.name=Thorium Dust
+    S:item.GT_Dusts.81.name=Plutonium Dust
     S:item.GT_Dusts.9.name=Saltpeter Dust
     S:item.GT_Gasses.0.name=Gaseous Hydrogen
     S:item.GT_Gasses.1.name=Gaseous Deuterium
@@ -242,7 +248,8 @@ languagefile {
     S:item.GT_SmallDusts.36.name=Tiny Pile of Diamond Dust
     S:item.GT_SmallDusts.37.name=Tiny Pile of Olivine Dust
     S:item.GT_SmallDusts.4.name=Tiny Pile of Calcite Dust
-    S:item.GT_SmallDusts.45.name=Tiny Pile of Phosphor Dust
+    S:item.GT_SmallDusts.44.name=Tiny Pile of Galena Dust
+    S:item.GT_SmallDusts.45.name=Tiny Pile of Phosphorus Dust
     S:item.GT_SmallDusts.46.name=Tiny Pile of Obsidian Dust
     S:item.GT_SmallDusts.47.name=Tiny Pile of Charcoal Dust
     S:item.GT_SmallDusts.5.name=Tiny Pile of Sodalite Dust
@@ -262,6 +269,8 @@ languagefile {
     S:item.GT_SmallDusts.66.name=Tiny Pile of Basalt Dust
     S:item.GT_SmallDusts.7.name=Tiny Pile of Flint Dust
     S:item.GT_SmallDusts.8.name=Tiny Pile of Sulfur Dust
+    S:item.GT_SmallDusts.80.name=Tiny Pile of Thorium Dust
+    S:item.GT_SmallDusts.81.name=Tiny Pile of Plutonium Dust
     S:item.GT_SmallDusts.9.name=Tiny Pile of Saltpeter Dust
     S:item.GregTech_Sensorcard.name=GregTech Sensor Card
     S:item.GregTech_Sensorkit.name=GregTech Sensor Kit
@@ -319,6 +328,7 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_BlastFurnace.name=Industrial Blast Furnace
     S:tile.BlockMetaID_Machine.GT_ChemicalReactor.name=Chemical Reactor
     S:tile.BlockMetaID_Machine.GT_DieselGenerator.name=Diesel Generator
+    S:tile.BlockMetaID_Machine.GT_DistillationTower.name=Distillation Tower
     S:tile.BlockMetaID_Machine.GT_DragonEggEnergySiphon.name=Dragon Egg Energy Siphon
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Large.name=Large Electric Buffer
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Small.name=Small Electric Buffer
@@ -330,9 +340,12 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Grinder.name=Industrial Grinder
     S:tile.BlockMetaID_Machine.GT_Harvestor.name=Crop Harvestor
     S:tile.BlockMetaID_Machine.GT_ImplosionCompressor.name=Implosion Compressor
+    S:tile.BlockMetaID_Machine.GT_MagicAbsorber.name=Magic Energy Absorber
+    S:tile.BlockMetaID_Machine.GT_MagicConverter.name=Magic Energy Converter
     S:tile.BlockMetaID_Machine.GT_QuantumTank.name=Quantum Tank
     S:tile.BlockMetaID_Machine.GT_RegulatorAdvanced.name=Advanced Regulator
     S:tile.BlockMetaID_Machine.GT_RockBreaker.name=Electric Rock Breaker
+    S:tile.BlockMetaID_Machine.GT_Safe.name=Advanced Safe
     S:tile.BlockMetaID_Machine.GT_Sawmill.name=Industrial Sawmill
     S:tile.BlockMetaID_Machine.GT_Scrapboxinator.name=Scrapboxinator
     S:tile.BlockMetaID_Machine.GT_SemifluidGenerator.name=Semifluid Generator
@@ -356,12 +369,12 @@ languagefile {
     S:tile.BlockMetaID_Ore.Cinnabar_Ore.name=Cinnabar Ore
     S:tile.BlockMetaID_Ore.Cooperite_Ore.name=Sheldonite Ore
     S:tile.BlockMetaID_Ore.GT_Ore.name=GT_Ore
+    S:tile.BlockMetaID_Ore.Galena_Ore.name=Galena Ore
     S:tile.BlockMetaID_Ore.Iridium_Ore.name=Iridium Ore
     S:tile.BlockMetaID_Ore.Olivine_Ore.name=Olivine Ore
     S:tile.BlockMetaID_Ore.Pyrite_Ore.name=Pyrite Ore
     S:tile.BlockMetaID_Ore.Ruby_Ore.name=Ruby Ore
     S:tile.BlockMetaID_Ore.Sapphire_Ore.name=Sapphire Ore
-    S:tile.BlockMetaID_Ore.Silver_Ore.name=Silver Ore
     S:tile.BlockMetaID_Ore.Sodalite_Ore.name=Sodalite Ore
     S:tile.BlockMetaID_Ore.Sphalerite_Ore.name=Sphalerite Ore
     S:tile.BlockMetaID_Ore.Tungstate_Ore.name=Tungstate Ore
