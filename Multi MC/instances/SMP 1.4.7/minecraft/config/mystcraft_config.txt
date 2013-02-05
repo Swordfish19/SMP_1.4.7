@@ -1,5 +1,5 @@
 # Configuration file
-# Generated on 11.01.13 17:56
+# Generated on 05.02.13 21:02
 
 ####################
 # block
@@ -45,7 +45,7 @@ general {
     S:options.difficultyoverride=
     B:options.instability=true
     I:options.providerId=9
-    B:options.renderlabels=true
+    B:options.renderlabels=false
 }
 
 
