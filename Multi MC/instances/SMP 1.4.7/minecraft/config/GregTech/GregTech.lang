@@ -1,5 +1,4 @@
 # Configuration file
-# Generated on 05.02.13 22:17
 
 ####################
 # languagefile
@@ -72,6 +71,7 @@ languagefile {
     S:item.GT_Components.35.name=Steel Machine Hull
     S:item.GT_Components.36.name=Titanium Machine Hull
     S:item.GT_Components.4.name=Computer Monitor
+    S:item.GT_Components.5.name=Conveyor Module
     S:item.GT_Dusts.0.name=Ender Pearl Dust
     S:item.GT_Dusts.1.name=Ender Eye Dust
     S:item.GT_Dusts.10.name=Endstone Dust
@@ -340,8 +340,10 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Grinder.name=Industrial Grinder
     S:tile.BlockMetaID_Machine.GT_Harvestor.name=Crop Harvestor
     S:tile.BlockMetaID_Machine.GT_ImplosionCompressor.name=Implosion Compressor
+    S:tile.BlockMetaID_Machine.GT_InventoryManager.name=Inventory Manager
     S:tile.BlockMetaID_Machine.GT_MagicAbsorber.name=Magic Energy Absorber
     S:tile.BlockMetaID_Machine.GT_MagicConverter.name=Magic Energy Converter
+    S:tile.BlockMetaID_Machine.GT_Pump.name=Advanced Pump
     S:tile.BlockMetaID_Machine.GT_QuantumTank.name=Quantum Tank
     S:tile.BlockMetaID_Machine.GT_RegulatorAdvanced.name=Advanced Regulator
     S:tile.BlockMetaID_Machine.GT_RockBreaker.name=Electric Rock Breaker
