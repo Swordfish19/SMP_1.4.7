@@ -324,9 +324,11 @@ languagefile {
     S:tile.BlockMetaID_Machine.Fusionreactor.name=Fusion Reactor
     S:tile.BlockMetaID_Machine.GT_Adv_Buffer.name=Advanced Buffer
     S:tile.BlockMetaID_Machine.GT_Adv_Translocator.name=Advanced Translocator
+    S:tile.BlockMetaID_Machine.GT_AlloySmelter.name=Alloy Smelter
     S:tile.BlockMetaID_Machine.GT_BUG.name=You ran into a serious Bug, if you have legitly aquired this Block, please report it immidietly
     S:tile.BlockMetaID_Machine.GT_Barrel.name=Digital Chest
     S:tile.BlockMetaID_Machine.GT_BlastFurnace.name=Industrial Blast Furnace
+    S:tile.BlockMetaID_Machine.GT_Canner.name=Automatic Canning Machine
     S:tile.BlockMetaID_Machine.GT_ChemicalReactor.name=Chemical Reactor
     S:tile.BlockMetaID_Machine.GT_Compressor.name=Automatic Compressor
     S:tile.BlockMetaID_Machine.GT_DieselGenerator.name=Diesel Generator
@@ -338,6 +340,7 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_E_Furnace.name=Automatic E-Furnace
     S:tile.BlockMetaID_Machine.GT_E_ItemClearer.name=Electric Item Clearer
     S:tile.BlockMetaID_Machine.GT_E_Sorter.name=Electric Sorter
+    S:tile.BlockMetaID_Machine.GT_E_T_Sorter.name=Electric Type Sorter
     S:tile.BlockMetaID_Machine.GT_Electrolyzer.name=Industrial Electrolyzer
     S:tile.BlockMetaID_Machine.GT_Extractor.name=Automatic Extractor
     S:tile.BlockMetaID_Machine.GT_GasTurbine.name=Gas Turbine
@@ -358,6 +361,11 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Sawmill.name=Industrial Sawmill
     S:tile.BlockMetaID_Machine.GT_Scrapboxinator.name=Scrapboxinator
     S:tile.BlockMetaID_Machine.GT_SemifluidGenerator.name=Semifluid Generator
+    S:tile.BlockMetaID_Machine.GT_Shelf.name=Wood encased Shelf
+    S:tile.BlockMetaID_Machine.GT_Shelf_Compartment.name=Compartment
+    S:tile.BlockMetaID_Machine.GT_Shelf_Desk.name=Metal encased Desk
+    S:tile.BlockMetaID_Machine.GT_Shelf_FileCabinet.name=File Cabinet
+    S:tile.BlockMetaID_Machine.GT_Shelf_Iron.name=Metal encased Shelf
     S:tile.BlockMetaID_Machine.GT_ThermalGenerator.name=Thermal Generator
     S:tile.BlockMetaID_Machine.GT_Translocator.name=Electric Translocator
     S:tile.BlockMetaID_Machine.GT_VacuumFreezer.name=Vacuum Freezer

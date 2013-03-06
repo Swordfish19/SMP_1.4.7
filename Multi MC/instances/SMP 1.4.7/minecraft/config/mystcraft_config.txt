@@ -52,7 +52,7 @@ general {
     S:options.difficultyoverride=
     B:options.instability=true
     I:options.providerId=9
-    B:options.renderlabels=false
+    B:options.renderlabels=true
     I:villager.archivist.id=1210950779
 }
 
